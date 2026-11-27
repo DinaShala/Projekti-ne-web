@@ -6,6 +6,7 @@
 
         <title>Fresh Smoothies | Home</title>
 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
 
     </head>
@@ -17,36 +18,39 @@
             <a class="logo" href="index.html">
                 🍓 Fresh<span>Smoothies</span>
             </a>
-    
-        
 
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="login.html">Login</a></li>
                 <li><a href="register.html">Register</a></li>
             </ul>
         </nav>    
-
-        </header>
+       
+        <a href="#" class="cart-btn">
+             🛒 <span class="cart-count">0</span>
+        </a>
+        
+    </header>
 
         <main>
             <section class="hero">
                 <div class="hero-text">
-                    <h1>Choose your favorite smoothie</h1>
+                    <h1>Choose your favorite <span>smoothie!</span></h1>
                     <p>Fruta të freskëta, pa sheqer të shtuar, gati për pak minuta!</p>
                     <a href="menu.html" class="btn">Shiko Menunë</a>
                 </div> 
+                <img class="hero-img" src="images/hero.jpeg" alt="Smoothies">
             </section>
           
             <section class="slider">
-                <img class="slide active" src="images/images1.jpg"
+                <img class="slide active" src="images/slider.jpg"
                     alt="Fresh Fruit">
-                <img class="slide" src="images/images2.jpg"
+                <img class="slide" src="images/slider1.jpg"
                     alt="Smoothies">
-                <img class="slide" src="images/images3.jpg"
+                <img class="slide" src="images/slider2.jpg"
                     alt="Delivery">
             </section>
         
@@ -59,22 +63,32 @@
                         <img src="images/creamy-strawberry-smoothie-delight-73aEM2uvmn4wkhdKSGFz7.jpg" alt="Strawberry Smoothie">
                         <h3>Strawberry Smoothie</h3>
                         <p>Luleshtrydhe dhe qumësht</p>
+                    <div class="card-foot">
                         <span class="price">€3.50</span>
-                    </article>
+                        <button class="btn small">Add</button>
+                    </div>
+                </article>
                 
                     <article class="card">
                         <img src="images/close-up-banana-shake_23-2151006048.avif" alt="Banana Smoothie">
                         <h3>Banana Smoothie</h3>
                         <p>Banane e shtrydhur dhe kremoze</p>
+                      <div class="card-foot"> 
                         <span class="price">€3.20</span>
+                        <button class="btn small">Add</button>
+                      </div>  
                     </article>
                 
                 <article class="card">
                     <img src="images/blueberry-smoothie-with-fresh-berries-and-mint-leaves-on-black-background-blueberry-smoothie-or-milkshake-with-fresh-berries-ai-generated-free-photo.jpg" alt="Blueberry Smoothie">
                     <h3>Blueberry Smoothie</h3>
                     <p>Boronica plot vitamina</p>
+                  <div class="card-foot">   
                     <span class="price">€3.80</span>
+                    <button class="btn small">Add</button>
+                  </div>
                 </article>
+          
             </div>
             </section>
 
